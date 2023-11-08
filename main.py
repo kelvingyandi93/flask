@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS
 from werkzeug.utils import secure_filename
 import tensorflow as tf
 import numpy as np
@@ -10,7 +9,6 @@ from collections import Counter
 
 
 app = Flask(__name__)
-CORS(app)
 
 # AI code
 resnet50 = tf.keras.applications.resnet50.ResNet50(include_top=False, weights='imagenet')
