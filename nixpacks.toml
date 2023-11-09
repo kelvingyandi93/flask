@@ -1,2 +1,2 @@
 [phases.setup]
-nixPkgs = ["...", "gtk2","ffmpeg", "libsm6", "libxext6"]
+nixPkgs = ["...", "gtk2"]
