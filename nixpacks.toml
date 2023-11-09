@@ -1,2 +1,2 @@
 [phases.setup]
-aptPkgs = ["...", "libgtk2.0-dev"]
+aptPkgs = ["...", "libgtk2.0-dev","ffmpeg", "libsm6", "libxext6"]
