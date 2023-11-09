@@ -6,5 +6,5 @@ Jinja2
 MarkupSafe
 Werkzeug
 tensorflow
-opencv-python-headless
+opencv-python
 imgaug
